@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section,
+.live-preview-section {
+    width: 45%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#preview-story-title,
+#preview-author-name,
+#preview-story-content {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#preview-image {
+    max-width: 100%;
+    height: auto;
+}

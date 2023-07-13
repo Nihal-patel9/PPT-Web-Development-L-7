@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="form-section">
+        <h2>Form Section</h2>
+        <form id="myForm">
+            <label for="story-title"></label>
+            <input type="text" id="story-title" placeholder="Enter the story title" />
+
+            <label for="author-name"></label>
+            <input type="text" id="author-name" placeholder="Enter the author name" />
+
+            <label for="story-content"></label>
+            <textarea id="story-content" placeholder="Enter the story content"></textarea>
+
+            <label for="image-url"></label>
+            <input type="text" id="image-url" placeholder="Enter the image URL" />
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="live-preview-section">
+        <h2>Live Preview Section</h2>
+        <div id="preview-story-title"></div>
+        <div id="preview-author-name"></div>
+        <div id="preview-story-content"></div>
+        <img id="preview-image" src="" alt="Preview Image" />
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
